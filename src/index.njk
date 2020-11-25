@@ -2,24 +2,203 @@
 layout: base.njk
 title: Minimal boilerplate for new projects built with Eleventy, Tailwind and PostCSS
 ---
+<section class="">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap">
+      <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+        <div class="relative flex flex-col min-w-0 break-words hover:bg-teal-100 w-full mb-8 hover:shadow-lg">
+          <div class="px-4 py-5 flex-auto">
+            <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+              <i class="fas fa-award"></i>
+            </div>
+            <h6 class="text-xl font-semibold">MODERN</h6>
+            <p class="mt-2 mb-4 text-gray-600">
+                    Divide details about your product or agency work into parts.
+                    A paragraph describing a feature will be enough.
+                  </p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+        <div class="relative flex flex-col min-w-0 break-words hover:bg-teal-100 w-full mb-8 hover:shadow-lg">
+          <div class="px-4 py-5 flex-auto">
+            <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+              <i class="fas fa-retweet"></i>
+            </div>
+            <h6 class="text-xl font-semibold">MINIMAL</h6>
+            <p class="mt-2 mb-4 text-gray-600">
+                    Keep you user engaged by providing meaningful information.
+                    Remember that by this time, the user is curious.
+                  </p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:pt-12  pt-6 w-full md:w-4/12 px-4 text-center">
+        <div class="relative flex flex-col min-w-0 break-words hover:bg-teal-100 w-full mb-8 hover:shadow-lg">
+          <div class="px-4 py-5 flex-auto">
+            <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+              <i class="fas fa-fingerprint"></i>
+            </div>
+            <h6 class="text-xl font-semibold">MOBILE</h6>
+            <p class="mt-2 mb-4 text-gray-600">
+                    Write a few lines about each one. A paragraph describing a
+                    feature will be enough. Keep you user engaged!
+                  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pt-20 pb-48">
+    <div class="container mx-auto px-4 bg-gray-300">
+      <div class="flex flex-wrap justify-center text-center mb-24">
+        <div class="w-full lg:w-6/12 px-4">
+          <br><br>
+          <h2 class="text-4xl font-semibold">PROJECTS</h2>
+          <br>
+        </div>
+        <div class="mx-auto max-w-2xl">
+          <div class="shadow-2xl relative">
+            <!-- large image on slides -->
+            <div class="mySlides hidden">
+              <div class="image1 w-full object-cover"></div>
+            </div>
+            <div class="mySlides hidden">
+              <div class="image2 w-full object-cover"></div>
+            </div>
+            <div class="mySlides hidden">
+              <div class="image3 w-full object-cover"></div>
+            </div>
+            <div class="mySlides hidden">
+              <div class="image4 w-full object-cover"></div>
+            </div>
+            <div class="mySlides hidden">
+              <div class="image5 w-full object-cover"></div>
+            </div>
 
-<main id="main" class="px-4 max-w-md mx-auto text-center">
-    <img src="/static/icon.svg" alt="Rocket icon" class="w-12 mx-auto my-4 rocket">
-    <h1 class="font-bold text-xl mb-2">JAMStack Web Starter <span class="font-light text-gray-500">v{{ pkg.version }}</span></h1>
-    <p>Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS</p>
+            <!-- butttons -->
+            <a class="absolute left-0 inset-y-0 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(-1)">❮</a>
+            <a class="absolute right-0 inset-y-0 flex items-center -mt-32 px-4 text-white hover:text-gray-800 cursor-pointer text-3xl font-extrabold" onclick="plusSlides(1)">❯</a>
 
-    <ul class="md:flex my-4">
-        <li class="md:flex-auto p-2">
-            <a href="https://github.com/scottishstoater/jamstack-web-starter/zipball/master/" class="block no-underline leading-tight p-3 font-bold border-2 border-ws-blue-600 bg-ws-blue-500 text-white rounded hover:bg-ws-blue-600">Download</a>
-        </li>
-        <li class="md:flex-auto p-2">
-            <a href="https://github.com/scottishstoater/jamstack-web-starter#features" class="block no-underline text-black leading-tight p-3 font-bold border-2 rounded hover:bg-gray-100">Get started</a>
-        </li>
-    </ul>
+            <!-- image description -->
+            <div class="text-center text-gray-300 font-light tracking-wider bg-gray-800 py-2">
+              <p id="caption"></p>
+            </div>
 
-    <footer class="text-sm text-gray-500">
-       <p class="flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="w-4 mr-1"><path class="fill-current text-gray-100" d="M32 5H4C1.791 5 0 6.791 0 9v18c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4V9c0-2.209-1.791-4-4-4z"/><path class="fill-current text-ws-blue-500" d="M13 18S0 8.586 0 8.895v18.21C0 27.414 13 18 13 18zm5 3S3.697 31 4.07 31h27.859C32.303 31 18 21 18 21zm5-3s13 9.414 13 9.105V8.895C36 8.586 23 18 23 18zm-5-3S3.697 5 4.07 5h27.859C32.303 5 18 15 18 15z"/></svg> <span>Proudly crafted in Scotland by <a href="https://www.chriscollins.me">Chris Collins</a></span></p>
-        <p>Go and build something great! 🥳</p>
-    </footer>
-</main>
+            <!-- smaller images under description -->
+            <div class="flex">
+              <div>
+                <img class="image1 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" onclick="currentSlide(1)" alt="Dog's Nose">
+              </div>
+              <div>
+                <img class="image2 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" onclick="currentSlide(2)" alt="Lawnmower">
+              </div>
+              <div>
+                <img class="image3 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" onclick="currentSlide(3)" alt="Globe">
+              </div>
+              <div>
+                <img class="image4 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" onclick="currentSlide(4)" alt="Optical Illusion">
+              </div>
+              <div>
+                <img class="image5 description h-24 opacity-50 hover:opacity-100 cursor-pointer" src="#" onclick="currentSlide(5)" alt="Lips">
+              </div>
+            </div>
+          </div>
+          <br><br><br><br>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative pb-24">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden">
+      <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+        <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+          <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+/>
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="md:pr-12">
+            <div
+                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+                >
+              <i class="fas fa-rocket text-xl"></i>
+            </div>
+            <h3 class="text-3xl font-semibold">A growing company</h3>
+            <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  The extension comes with three pre-built pages to help you get
+                  started faster. You can change the text and images and you're
+                  good to go.
+                </p>
+            <ul class="list-none mt-6">
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          >
+                      <i class="fas fa-fingerprint"></i
+                        >
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">
+                          Carefully crafted components
+                        </h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          >
+                      <i class="fab fa-html5"></i
+                        >
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Amazing page examples</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          >
+                      <i class="far fa-paper-plane"></i
+                        >
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Dynamic components</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -5,16 +5,64 @@
     {% if site.env %}
       <!-- capture the CSS content as a Liquid variable -->
       {% set css %}{% include "app.compiled.css" %}{% endset %}
-      <style> 
+      <style>
         {{ css | safe }}
       </style>
     {% else %}
     <link rel="stylesheet" href="/static/app.compiled.css">
     {% endif %}
+
   </head>
-  <body>
-    <a href="#main" class="skip-link">Skip to main content</a>
+  <body class="antialiased">
+    <!-- <a href="#main" class="skip-link">Skip to main content</a> -->
+    {% include "./partials/navbar.njk" %}
+    <main>
+    {% include "./partials/hero.njk" %}
     {{ content | safe }}
+    </main>
+    {% include "./partials/footer.njk" %}
   </body>
   <script src="/static/app.bundled.js"></script>
+    <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+
+<script>
+//JS to switch slides and replace text in bar//
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("description");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" opacity-100", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " opacity-100";
+  captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+</script>
 </html>

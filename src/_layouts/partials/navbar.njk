@@ -1,0 +1,40 @@
+<nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between bg-black bg-opacity-50">
+    <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+      <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-gray-300 hover:text-teal-100"
+            href="/">Modible</a>
+      <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-gray-300"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')">
+        &#9776;
+      </button>
+    </div>
+    <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar">
+      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+      <li class="flex items-center">
+          <a class="lg:text-gray-300 lg:hover:text-teal-100 text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="/about">
+            <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+                About</a>
+        </li>
+        <li class="flex items-center">
+          <a class="lg:text-gray-300 lg:hover:text-teal-100 text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold hover:text-teal-100"
+                href="/posts">
+            <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+            <i class="fas fa-arrow-alt-circle-down"></i>Blog
+      </a>
+        </li>
+        <li class="flex items-center">
+          <a class="lg:text-gray-300 lg:hover:text-teal-100 text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold hover:text-teal-100"
+                href="/contact">
+            <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+            <i class="fas fa-arrow-alt-circle-down"></i>Contact
+      </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
