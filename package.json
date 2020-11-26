@@ -1,7 +1,7 @@
 {
 	"name": "Modible",
-	"version": "1.0",
-	"description": "Franklin Riley | Web Developer | Niceville, Florida",
+	"version": "1.6.1",
+	"description": "Franklin Riley | Web Developer | Niceville, Floida",
 	"scripts": {
 		"clean": "del dist",
 		"dev:postcss": "postcss src/_assets/stylesheets/*.css -o src/static/app.compiled.css --watch --verbose",
