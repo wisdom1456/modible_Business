@@ -17,17 +17,20 @@ module.exports = {
           800: "#003072",
           900: "#00204C",
         },
-        white: {
-          DEFAULT: '#FFFFFF',
+        green: {
+          500: '#8CA653',
+        },
+        ltblue: {
+          500: '#A9C6D9',
         },
         blue: {
-          DEFAULT: '8EF2FF',
+          500: '#049DBF',
         },
         orange: {
-          DEFAULT: '#E36E40',
+          500: '#BF491F',
         },
-        brown: {
-          DEFAULT: '#161819',
+        yellow: {
+          500: '#D9BD32',
         }
       },
 		},
