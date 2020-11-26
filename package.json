@@ -1,7 +1,7 @@
 {
-	"name": "jamstack-web-starter",
-	"version": "1.6.1",
-	"description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS",
+	"name": "Modible",
+	"version": "1.0",
+	"description": "Franklin Riley | Web Developer | Niceville, Florida",
 	"scripts": {
 		"clean": "del dist",
 		"dev:postcss": "postcss src/_assets/stylesheets/*.css -o src/static/app.compiled.css --watch --verbose",
