@@ -69,3 +69,17 @@ button:focus {
 button:hover {
     background-color: #E36E40;
 }
+
+ul {
+    color: #FFFFFF;
+	font-family: Neuton;
+    font-kerning: normal;
+    font-weight: 200;
+    line-height: 1.8;
+    font-size: 19px;
+    letter-spacing: .5px;
+}
+
+ul li {
+    padding: 0px 20px;
+}
