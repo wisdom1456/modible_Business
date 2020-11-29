@@ -1,7 +1,7 @@
 module.exports = {
   "title": "Modible",
   "description": "Franklin Riley | Web Developer | Niceville, Florida",
-  "url": "https://modnow.netlify.app",
+  "url": "https://www.modible.com",
   "author": "Franklin Riley",
   "meta_data": {
     "twitter": "@scottishstoater",
