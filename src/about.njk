@@ -1,7 +1,28 @@
 ---
 layout: base.njk
-title: Minimal boilerplate for new projects built with Eleventy, Tailwind and PostCSS
+title: About | Website Design
 ---
-<h1> Stuff about me! </h1>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<h1> More Stuff! </h1>
+
+{# <main class="min-h-screen bg-black text-white flex items-center justify-center" x-data="carouselFilter()">
+  <div class="container grid grid-cols-1">
+
+    <div class="flex py-12 justify-center">
+      <a class="px-2 text-lg uppercase font-bold tracking-widest hover:text-white" :class="{ 'text-gray-800': active != 0 }" href="#" @click.prevent="changeActive(0)">Fruit</a>
+      <a class="px-2 text-lg uppercase font-bold tracking-widest hover:text-white" :class="{ 'text-gray-700': active != 1 }" href="#" @click.prevent="changeActive(1)">People</a>
+    </div>
+
+  </div>
+
+</main> #}
+
+<main class="min-h-screen bg-black text-white flex items-center justify-center" x-data="carouselFilter()">
+  <div class="container grid grid-cols-1">
+
+    <div class="flex py-12 justify-center">
+      <a class="px-2 text-lg uppercase font-bold tracking-widest hover:text-white" :class="{ 'text-gray-800': active != 0 }" href="#" @click.prevent="changeActive(0)">Fruit</a>
+      <a class="px-2 text-lg uppercase font-bold tracking-widest hover:text-white" :class="{ 'text-gray-700': active != 1 }" href="#" @click.prevent="changeActive(1)">People</a>
+    </div>
+
+  </div>
+
+</main>

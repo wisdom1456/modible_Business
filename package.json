@@ -30,5 +30,9 @@
 		"tailwindcss": "^1.8.5",
 		"webpack": "^4.44.1",
 		"webpack-cli": "^3.3.12"
+	},
+	"dependencies": {
+		"alpinejs": "^2.7.3",
+		"feather-icons": "^4.28.0"
 	}
 }

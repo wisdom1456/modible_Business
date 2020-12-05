@@ -3,29 +3,105 @@
 
 /* purgecss start ignore */
 
+:focus,
+button:focus {
+    outline: solid 3px rgba(0, 0, 0, 0.05);
+    outline-offset: 4px;
+}
+
 a {
-	text-decoration: none;
+    @apply text-gray-700 no-underline;
 }
 
-/*each image is referenced twice in the HTML, but each image only needs to be updated in the CSS*/
-.image1 {
-	content: url("https://randomwordgenerator.com/img/picture-generator/52e4d7434f51a914f1dc8460962e33791c3ad6e04e5074417d2c7ed09f4acc_640.jpg");
+.svg-wrapper {
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
 }
 
-.image2 {
-	content: url("https://randomwordgenerator.com/img/picture-generator/55e8d146425bb10ff3d8992cc12c30771037dbf852547848702a7fd19545_640.jpg");
+.shape {
+    fill: transparent;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    stroke: #19f6e8;
 }
 
-.image3 {
-	content: url("https://randomwordgenerator.com/img/picture-generator/55e8d24b4257ac14f1dc8460962e33791c3ad6e04e507440752972d3924cc6_640.jpg");
+.text {
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 22px;
+    letter-spacing: 8px;
+    line-height: 32px;
+    position: relative;
+    top: -48px;
 }
 
-.image4 {
-	content: url("https://randomwordgenerator.com/img/picture-generator/55e0d44b4b56a414f1dc8460962e33791c3ad6e04e5074417c2d78d2954bcd_640.jpg");
+@keyframes draw {
+    0% {
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+    }
+    100% {
+        stroke-dasharray: 760;
+        stroke-dashoffset: 0;
+        stroke-width: 2px;
+    }
 }
 
-.image5 {
-	content: url("https://randomwordgenerator.com/img/picture-generator/5ee3dc414954b10ff3d8992cc12c30771037dbf85254794e732f7ad7934e_640.jpg");
+.svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
 }
 
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.6;
+}
+
+.rocket {
+    animation: rocket 0.7s linear infinite both;
+}
+
+@keyframes rocket {
+    0% {
+        transform: translate(0);
+        transform: rotate(0);
+    }
+    10% {
+        transform: translate(-1px, -1px);
+    }
+    20% {
+        transform: translate(1px, -1px);
+    }
+    30% {
+        transform: translate(-1px, 1px);
+    }
+    40% {
+        transform: translate(1px, 1px);
+    }
+    50% {
+        transform: translate(-1px, -1px);
+    }
+    60% {
+        transform: translate(1px, -1px);
+    }
+    70% {
+        transform: translate(-1px, 1px);
+    }
+    80% {
+        transform: translate(-2px, -2px);
+    }
+    90% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
 /* purgecss end ignore */

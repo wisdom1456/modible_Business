@@ -15,8 +15,5 @@
   height: auto;
   overflow: visible;
   width: auto;
-}
-
-.a {
-  text-decoration: none;
+  @apply bg-ws-blue-500 p-3 text-white;
 }
