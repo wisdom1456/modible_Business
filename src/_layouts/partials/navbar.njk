@@ -1,8 +1,12 @@
 <div id="navbar" class="antialiased bg-gray-100 dark-mode:bg-gray-900 z-20">
   <div class="w-full fixed text-gray-700 dark-mode:text-gray-200 dark-mode:bg-gray-800 z-20">
-    <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-      <div class="flex flex-row items-center p-4">
-        <button class="rounded-lg md:hidden " @click="open = !open">
+    <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 bg-white bg-opacity-75">
+      <div class="flex flex-row items-center p-4 justify-between" >
+
+      <span class="ml-3">
+          <a href="#" class="text-lg font-semibold tracking-widest ds uppercase rounded-lg dark-mode:text-white ">Modible</a>
+        </span>
+        <button class="rounded-lg md:hidden" @click="open = !open">
           <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
 
             <svg x-show="!open" id="light" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -18,11 +22,9 @@
           </svg>
         </button>
 
-        <span class="ml-3">
-          <a href="#" class="text-lg font-semibold tracking-widest ds uppercase rounded-lg dark-mode:text-white ">Modible</a>
-        </span>
+
       </div>
-      <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row ">
+      <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
         <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-sm dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900  hover:bg-gray-200 " href="/">Home</a>
         <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-sm dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900  hover:bg-gray-200 " href="/about">About</a>
         <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-sm dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900  hover:bg-gray-200 " href="/portfolio">Portfolio</a>
