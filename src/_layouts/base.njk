@@ -12,18 +12,18 @@
       <link rel="stylesheet" href="/static/app.compiled.css">
     {% endif %}
     <link href="/static/gallery.css" rel="stylesheet">
-<link href="/static/gallery-keyframes-scroll.css" rel="stylesheet">
-  <style>
-  .gallery {
-    --gallery_width: 100%;
-    --gallery_height: 100%;
-  }
-</style>
+    <link href="/static/gallery-keyframes-scroll.css" rel="stylesheet">
+    <style>
+      .gallery {
+        --gallery_width: 100%;
+        --gallery_height: 100%;
+      }
+    </style>
   </head>
-  <body class="overflow-x-hidden min-h-screen">
+  <body>
     <a href="#main" class="skip-link">Skip to main content</a>
 
-    <header>{% include "./partials/navbar.njk" %}</header>
+    {% include "./partials/navbar.njk" %}
 
     {{ content | safe }}
 
@@ -32,8 +32,8 @@
   <script src="/static/app.bundled.js"></script>
   <script src="/static/gallery.js"></script>
   <style>
-  .w-70 {
-    width: 20rem;
-	}
-</style>
+    .w-70 {
+      width: 20rem;
+    }
+  </style>
 </html>

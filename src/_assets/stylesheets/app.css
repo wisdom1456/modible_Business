@@ -9,6 +9,11 @@ button:focus {
     outline-offset: 4px;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
     @apply text-gray-700 no-underline;
 }

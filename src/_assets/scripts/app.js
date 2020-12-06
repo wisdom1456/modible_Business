@@ -13,13 +13,13 @@ for (let i = 0; i < numBalls; i++) {
     ball.classList.add("ball");
     ball.style.background = colors[Math.floor(Math.random() * colors.length)];
     ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-    ball.style.top = `${Math.floor(Math.random() * 60)}vh`;
+    ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
     ball.style.transform = `scale(${Math.random()})`;
     ball.style.width = `${Math.random()}em`;
     ball.style.height = ball.style.width;
 
     balls.push(ball);
-    document.body.append(ball);
+    document.getElementById("balls").append(ball);
 }
 
 // Keyframes
@@ -35,7 +35,7 @@ balls.forEach((el, i, ra) => {
             { transform: `translate(${to.x}rem, ${to.y}rem)` }
         ],
         {
-            duration: (Math.random() + 1) * 2000, // random duration
+            duration: (Math.random() + 1) * 2500, // random duration
             direction: "alternate",
             fill: "both",
             iterations: Infinity,
