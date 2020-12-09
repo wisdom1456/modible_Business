@@ -3,19 +3,19 @@ import "alpinejs";
 const feather = require("feather-icons");
 
 // Some random colors
-const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+const colors = ["#F56164", "#F7AA45", "#E0DB4A", "#45F76A", "#69CCF5"];
 
-const numBalls = 50;
+const numBalls = 20;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
     let ball = document.createElement("div");
     ball.classList.add("ball");
     ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-    ball.style.left = `${Math.floor(Math.random() * 70)}vw`;
-    ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
+    ball.style.left = `${Math.floor(Math.random() * 60) + 20}vw`;
+    ball.style.top = `${Math.floor(Math.random()) + 10}vh`;
     ball.style.transform = `scale(${Math.random()})`;
-    ball.style.width = `${Math.random()}em`;
+    ball.style.width = `${Math.random() * 1.5}em`;
     ball.style.height = ball.style.width;
 
     balls.push(ball);
@@ -25,8 +25,9 @@ for (let i = 0; i < numBalls; i++) {
 // Keyframes
 balls.forEach((el, i, ra) => {
     let to = {
-        x: Math.random() * (i % 2 === 0 ? -11 : 11),
-        y: Math.random() * 12
+        x: Math.random() * (i % 2 === 0 ? -5 : 5),
+        y: 20
+
     };
 
     let anim = el.animate(
@@ -35,7 +36,7 @@ balls.forEach((el, i, ra) => {
             { transform: `translate(${to.x}rem, ${to.y}rem)` }
         ],
         {
-            duration: (Math.random() + 1) * 2500, // random duration
+            duration: (Math.random() + 1) * 3000, // random duration
             direction: "alternate",
             fill: "both",
             iterations: Infinity,
