@@ -18,8 +18,11 @@ for (let i = 0; i < numBalls; i++) {
     ball.style.width = `${Math.random() * 1.5}em`;
     ball.style.height = ball.style.width;
 
-    balls.push(ball);
-    document.getElementById("balls").append(ball);
+    var element = document.getElementById('balls');
+    if (typeof (element) != 'undefined' && element != null) {
+        balls.push(ball);
+        element.append(ball);
+    }
 }
 
 // Keyframes
