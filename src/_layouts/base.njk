@@ -16,9 +16,9 @@
     <a href="#main" class="skip-link">Skip to main content</a>
 
     {% include "./partials/navbar.njk" %}
-
+<div class="fade-in-slow">
     {{ content | safe }}
-
+</div>
     <footer>{% include "./partials/footer.njk" %}</footer>
   </body>
   <script src="/static/app.bundled.js"></script>
