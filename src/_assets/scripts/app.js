@@ -1,5 +1,6 @@
 import "alpinejs";
 
+
 const feather = require("feather-icons");
 
 // Some random colors
@@ -18,8 +19,8 @@ for (let i = 0; i < numBalls; i++) {
     ball.style.width = `${Math.random() * 1.5}em`;
     ball.style.height = ball.style.width;
 
-    var element = document.getElementById('balls');
-    if (typeof (element) != 'undefined' && element != null) {
+    var element = document.getElementById("balls");
+    if (typeof element != "undefined" && element != null) {
         balls.push(ball);
         element.append(ball);
     }
@@ -30,7 +31,6 @@ balls.forEach((el, i, ra) => {
     let to = {
         x: Math.random() * (i % 2 === 0 ? -5 : 5),
         y: 20
-
     };
 
     let anim = el.animate(
