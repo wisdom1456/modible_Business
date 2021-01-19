@@ -21,98 +21,27 @@ title: Portfolio | Website Design
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
             </div>
             <div class="flex flex-wrap pt-12 -m-4">
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-300" src="/static/img/projects/Waterhouse.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Law Firm</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Waterhouse Law Firm</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-400" src="/static/img/projects/PJays.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Pool Construction</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">P'Jays Pools</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-500" src="/static/img/projects/Holman.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Law Firm</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Tonya Holman Law Firm</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
+                {% for pfolio in portfolio %}
+                    <div class="lg:w-1/3 sm:w-1/2 p-4 ">
+                        <a href="{{pfolio.link}}" target="_blank" alt="Link to {{pfolio.title}}">
+                            <div class="bg-white antialiased text-gray-900 height:100vh display:inline-grid">
+                                <div>
+                                    <img src="{{pfolio.img}}" alt=" random imgee" class="w-full object-cover object-center rounded-lg {{pfolio.color}}">
+                                    <div class="relative px-4 -mt-16  ">
+                                        <div class="bg-white p-6 rounded-lg shadow-lg hover:bg-gray-200 hover:shadow-none">
+                                            <h4 class="mt-1 text-md font-semibold uppercase leading-tight truncate">{{pfolio.title}}</h4>
+                                            <div class="mt-1">{{pfolio.subTitle}}</div>
+                                            <div class="mt-4">
+                                                <span class="text-teal-600 text-sm">{{pfolio.description}}</span>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-600" src="/static/img/projects/OFAWL.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Lawyers Association</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">OFAWL</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-700" src="/static/img/projects/N1L3.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Musician</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">N1L3</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-300" src="/static/img/projects/CottonLand.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Title Company</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cotton Land Title</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-400" src="/static/img/projects/Treehouse.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Foundation</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Franklin's Treehouse</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-500" src="/static/img/projects/KeepItRealtime.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Realtime Captioning</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Keep It Realtime</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/3 sm:w-1/2 p-4 ">
-                    <div class="flex relative">
-                        <img alt="gallery" class="rounded-lg absolute inset-0 w-full h-full object-cover object-center bg-balls-600" src="/static/img/projects/RemolReed.png">
-                        <div class="rounded-lg px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Law Firm</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Remol Reed Law Firm</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                        </div>
-                    </div>
-                </div>
+                    </a>
+                {% endfor %}
             </div>
         </div>
     </section>
