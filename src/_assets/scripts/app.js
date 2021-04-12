@@ -4,7 +4,7 @@ import "alpinejs";
 const feather = require("feather-icons");
 
 // Some random colors
-const colors = ["#F56164", "#F7AA45", "#E0DB4A", "#45F76A", "#69CCF5"];
+const colors = ["#A6A6A6", "#E9ECF2", "#A8BF84", "#ABD94A", "#8C6C61"];
 
 const numBalls = 20;
 const balls = [];
