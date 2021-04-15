@@ -1,74 +1,82 @@
 [
     {
-      "img": "/static/img/projects/Waterhouse.png",
-      "color": "bg-balls-300",
-      "subTitle": "Law Firm",
-      "title": "Waterhouse Law Firm",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.waterhouselawfirm.com/"
+        "img": "/static/img/projects/OBA.png",
+        "color": "bg-balls-300",
+        "subTitle": "Professional Association",
+        "title": "Okaloosa Bar ASsociation",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "/portfolio/oba/"
     },
     {
-      "img": "/static/img/projects/PJays.png",
-      "color": "bg-balls-400",
-      "subTitle": "Pool Construction",
-      "title": "P'Jays Pools",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.pjayspools.com/"
+        "img": "/static/img/projects/RemolReed.png",
+        "color": "bg-balls-600",
+        "subTitle": "Law Firm",
+        "title": "Remol Reed Law Firm",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "/portfolio/remolreed/"
     },
     {
-      "img": "/static/img/projects/Holman.png",
-      "color": "bg-balls-500",
-      "subTitle": "Law Firm",
-      "title": "Tonya Holman Law Firm",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.tonyaholmanlawfirm.com/"
+        "img": "/static/img/projects/Waterhouse.png",
+        "color": "bg-balls-300",
+        "subTitle": "Law Firm",
+        "title": "Waterhouse Law Firm",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "/portfolio/waterhouse/"
     },
     {
-      "img": "/static/img/projects/OFAWL.png",
-      "color": "bg-balls-600",
-      "subTitle": "Lawyers Association",
-      "title": "OFAWL",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.ofawl.org/"
+        "img": "/static/img/projects/PJays.png",
+        "color": "bg-balls-400",
+        "subTitle": "Pool Construction",
+        "title": "P'Jays Pools",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.pjayspools.com/"
     },
     {
-      "img": "/static/img/projects/N1L3.png",
-      "color": "bg-balls-700",
-      "subTitle": "Musician",
-      "title": "N1L3",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.n1l3.com/"
+        "img": "/static/img/projects/Holman.png",
+        "color": "bg-balls-500",
+        "subTitle": "Law Firm",
+        "title": "Tonya Holman Law Firm",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.tonyaholmanlawfirm.com/"
     },
     {
-      "img": "/static/img/projects/CottonLand.png",
-      "color": "bg-balls-300",
-      "subTitle": "Title Company",
-      "title": "Cotton Land Title",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.cottonlandtitle.com/"
+        "img": "/static/img/projects/OFAWL.png",
+        "color": "bg-balls-600",
+        "subTitle": "Lawyers Association",
+        "title": "OFAWL",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.ofawl.org/"
     },
     {
-      "img": "/static/img/projects/Treehouse.png",
-      "color": "bg-balls-400",
-      "subTitle": "Foundation",
-      "title": "Franklin's Treehouse",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.franklinstreehouse.org/"
+        "img": "/static/img/projects/N1L3.png",
+        "color": "bg-balls-700",
+        "subTitle": "Musician",
+        "title": "N1L3",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.n1l3.com/"
     },
     {
-      "img": "/static/img/projects/KeepItRealtime.png",
-      "color": "bg-balls-500",
-      "subTitle": "Realtime Captioning",
-      "title": "Keep It Realtime",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.keepitrealtime.com/"
+        "img": "/static/img/projects/CottonLand.png",
+        "color": "bg-balls-300",
+        "subTitle": "Title Company",
+        "title": "Cotton Land Title",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.cottonlandtitle.com/"
     },
     {
-      "img": "/static/img/projects/RemolReed.png",
-      "color": "bg-balls-600",
-      "subTitle": "Law Firm",
-      "title": "Remol Reed Law Firm",
-      "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-      "link": "https://www.remolreed.com/"
+        "img": "/static/img/projects/Treehouse.png",
+        "color": "bg-balls-400",
+        "subTitle": "Foundation",
+        "title": "Franklin's Treehouse",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.franklinstreehouse.org/"
+    },
+    {
+        "img": "/static/img/projects/KeepItRealtime.png",
+        "color": "bg-balls-500",
+        "subTitle": "Realtime Captioning",
+        "title": "Keep It Realtime",
+        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "link": "https://www.keepitrealtime.com/"
     }
-  ]
+]
