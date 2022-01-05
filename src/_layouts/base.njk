@@ -15,11 +15,12 @@
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
 
-    {% include "./partials/navbar.njk" %}
-<div class="fade-in-slow">
-    {{ content | safe }}
-</div>
-    <footer>{% include "./partials/footer.njk" %}</footer>
+    <div class="fade-in-slow">
+      {% include "./partials/navbar.njk" %}
+      {{ content | safe }}
+      <footer>{% include "./partials/footer.njk" %}</footer>
+    </div>
+
   </body>
   <script src="/static/app.bundled.js"></script>
   <script src="/static/gallery.js"></script>

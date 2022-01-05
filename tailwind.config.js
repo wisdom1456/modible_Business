@@ -20,11 +20,7 @@ module.exports = {
                     600: "#ABD94A",
                     700: "#8C6C61"
                 }
-            },
-            backgroundImage: (theme) => ({
-                mainbg: "url('./img/palmtrees.jpg')",
-                "footer-texture": "url('/img/footer-texture.png')"
-            })
+            }
         }
     },
     variants: {},
