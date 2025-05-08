@@ -7,5 +7,10 @@ module.exports = {
       return DateTime.fromJSDate(dateObj, {
         zone: 'utc'
       }).toFormat('yyyy-LL-dd');
+    },
+    readableDate: (dateObj) => {
+      return DateTime.fromJSDate(dateObj, {
+        zone: 'utc'
+      }).toFormat('dd LLL yyyy');
     }
 }

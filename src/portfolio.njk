@@ -9,7 +9,7 @@ title: Portfolio | Website Design
         <div class="container px-5 pt-16 mx-auto md:pt-16">
             <div class="rounded-lg h-12 overflow-hidden md:h-48">
                 <!-- 1238x204 -->
-                <img alt="content" class="object-cover object-center h-full w-full" src="/static/img/tshirt.jpg">
+                <img alt="Promotional image of a t-shirt design" class="object-cover object-center h-full w-full" src="/static/img/tshirt.jpg">
             </div>
         </div>
     </section>
@@ -27,14 +27,14 @@ title: Portfolio | Website Design
 
                             <a href="{{pfolio.link}}" target="_blank" alt="Link to {{pfolio.title}}">
                                 <div>
-                                    <img src="{{pfolio.img}}" alt=" random imgee" class="w-full object-cover object-center rounded-lg {{pfolio.color}}">
+                                    <img src="{{pfolio.img}}" alt="{{pfolio.alt}}" class="w-full object-cover object-center rounded-lg {{pfolio.color}}">
                                     <div class="relative px-4 -mt-16  ">
                                         <div class="bg-white p-6 rounded-lg shadow-lg hover:bg-gray-200 hover:shadow-none">
                                             <h4 class="mt-1 text-md font-semibold uppercase leading-tight truncate">{{pfolio.title}}</h4>
                                             <div class="mt-1">{{pfolio.subTitle}}</div>
-                                            {# <div class="mt-4">
+                                            <div class="mt-4">
                                                 <span class="text-teal-600 text-sm">{{pfolio.description}}</span>
-                                            </div> #}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

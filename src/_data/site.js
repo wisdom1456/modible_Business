@@ -5,7 +5,8 @@ module.exports = {
   "author": "Chris Collins",
   "meta_data": {
     "twitter": "@scottishstoater",
-    "default_social_image": "/static/default_social_image.jpg"
+    "default_social_image": "/static/default_social_image.jpg",
+    "default_social_image_alt": "Modible logo with a tagline 'Crafting Digital Experiences'"
   },
   "env": process.env.ELEVENTY_ENV === 'production'
 }

@@ -1,82 +1,92 @@
 [
     {
         "img": "/static/img/projects/OBA.png",
+        "alt": "Okaloosa Bar Association - Professional Association project image",
         "color": "bg-balls-300",
         "subTitle": "Professional Association",
         "title": "Okaloosa Bar ASsociation",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Developed a streamlined digital platform fostering enhanced member engagement and providing intuitive access to resources, reflecting an innovative approach to community building for legal professionals.",
         "link": "/portfolio/oba/"
     },
     {
         "img": "/static/img/projects/RemolReed.png",
+        "alt": "Remol Reed Law Firm - Law Firm project image",
         "color": "bg-balls-600",
         "subTitle": "Law Firm",
         "title": "Remol Reed Law Firm",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Crafted a user-centric website that simplifies complex legal information, offering clear pathways for clients to connect with expert legal services and underscoring the firm's commitment to accessible justice.",
         "link": "/portfolio/remolreed/"
     },
     {
         "img": "/static/img/projects/Waterhouse.png",
+        "alt": "Waterhouse Law Firm - Law Firm project image",
         "color": "bg-balls-300",
         "subTitle": "Law Firm",
         "title": "Waterhouse Law Firm",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Engineered an online presence that prioritizes client needs, featuring an innovative, easy-to-navigate interface for accessing legal expertise and case information efficiently.",
         "link": "/portfolio/waterhouse/"
     },
     {
         "img": "/static/img/projects/PJays.png",
+        "alt": "P'Jays Pools - Pool Construction project image",
         "color": "bg-balls-400",
         "subTitle": "Pool Construction",
         "title": "P'Jays Pools",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Designed a visually engaging and user-friendly website that showcases their stunning pool constructions, employing innovative design elements to inspire and attract new clientele.",
         "link": "https://www.pjayspools.com/"
     },
     {
         "img": "/static/img/projects/Holman.png",
+        "alt": "Tonya Holman Law Firm - Law Firm project image",
         "color": "bg-balls-500",
         "subTitle": "Law Firm",
         "title": "Tonya Holman Law Firm",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Built a compassionate, client-focused digital experience, ensuring individuals can easily find and understand the legal support offered, highlighting an innovative approach to personalized legal service.",
         "link": "https://www.tonyaholmanlawfirm.com/"
     },
     {
         "img": "/static/img/projects/OFAWL.png",
+        "alt": "OFAWL - Lawyers Association project image",
         "color": "bg-balls-600",
         "subTitle": "Lawyers Association",
         "title": "OFAWL",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Created an empowering online hub for a lawyers association, utilizing innovative features to promote networking, resource sharing, and professional development in a user-centric manner.",
         "link": "https://www.ofawl.org/"
     },
     {
         "img": "/static/img/projects/N1L3.png",
+        "alt": "N1L3 - Musician project image",
         "color": "bg-balls-700",
         "subTitle": "Musician",
         "title": "N1L3",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Developed a dynamic and immersive website for a musician, providing a user-centric platform for fans to explore music, tour dates, and connect with the artist through innovative digital experiences.",
         "link": "https://www.n1l3.com/"
     },
     {
         "img": "/static/img/projects/CottonLand.png",
+        "alt": "Cotton Land Title - Title Company project image",
         "color": "bg-balls-300",
         "subTitle": "Title Company",
         "title": "Cotton Land Title",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Implemented a clear and trustworthy online portal for a title company, focusing on user-centric design to simplify the property transaction process with innovative, accessible information.",
         "link": "https://www.cottonlandtitle.com/"
     },
     {
         "img": "/static/img/projects/Treehouse.png",
+        "alt": "Franklin's Treehouse - Foundation project image",
         "color": "bg-balls-400",
         "subTitle": "Foundation",
         "title": "Franklin's Treehouse",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Designed an inspiring and accessible website for a foundation, employing innovative storytelling and user-centric navigation to connect with supporters and amplify their mission.",
         "link": "https://www.franklinstreehouse.org/"
     },
     {
         "img": "/static/img/projects/KeepItRealtime.png",
+        "alt": "Keep It Realtime - Realtime Captioning project image",
         "color": "bg-balls-500",
         "subTitle": "Realtime Captioning",
         "title": "Keep It Realtime",
-        "description": "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        "description": "Engineered a high-performance, user-focused platform for realtime captioning services, showcasing innovative technology to ensure accessibility and clear communication for all users.",
         "link": "https://www.keepitrealtime.com/"
     }
 ]

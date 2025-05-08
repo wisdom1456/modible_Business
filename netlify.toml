@@ -8,3 +8,6 @@
 
   # Default build command.
   command = "npm run build"
+
+# In your _redirects file or netlify.toml
+https://idea.modible.com/* https://your-destination-site.com/:splat 301!
